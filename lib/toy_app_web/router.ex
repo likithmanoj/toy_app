@@ -19,6 +19,7 @@ defmodule ToyAppWeb.Router do
 
     get "/", PageController, :home
     resources "/users", UserController
+    resources "/microposts", MicropostController
     #get "/about" AboutController, :about
 
   end
