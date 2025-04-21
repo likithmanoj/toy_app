@@ -28,6 +28,7 @@ defmodule ToyAppWeb.ConnCase do
       import Plug.Conn
       import Phoenix.ConnTest
       import ToyAppWeb.ConnCase
+      use HTMLAssertion
     end
   end
 
